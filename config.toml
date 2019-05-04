@@ -1,0 +1,66 @@
+baseURL = "https://fabian.kammel.dev/"
+languageCode = "en-us"
+title = "Fabian Kammel"
+theme = "osprey"
+
+[Params]
+  tagline = "My little Kube on the Internet..."
+  author = "Kube[icle]"
+  description = "Here goes description"
+  logoBig = "/images/Logo.png"
+  logoSmall = "/images/Logo.png"
+  favicon = "favicon.ico"
+  opengraphImage = "/images/Logo.png"
+  email = ""
+  googleTagManager = ""
+  customCSS = false
+
+  # Social media links in footer
+  twitter = "datosh18"
+  linkedin = "fabian-kammel-7781b7173"
+  github = "datosh"
+
+  # Copyright and theme author credit in footer
+  copyright = true
+  credit = true
+
+  # Code highlighting with highlight.js
+  highlightJS = true
+  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
+  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+
+  # Choose either Formspree contact form or Basin contact form
+  ajaxFormspree = false
+  ajaxFormspreeGold = false
+  ajaxBasin = false
+
+[[menu.main]]
+  name = "About"
+  url  = "/#about"
+  weight = 1
+[[menu.main]]
+  name = "Blog"
+  url  = "/#blog"
+  weight = 2
+[[menu.main]]
+  name = "Tags"
+  url  = "/tags"
+  weight = 3
+[[menu.main]]
+  name = "Categories"
+  url  = "/categories"
+  weight = 4
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
